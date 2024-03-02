@@ -1,0 +1,91 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.content-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Navigation .Navigation-items {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.Navigation-items li {
+  list-style: none;
+}
+
+.Navigation-items li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: arial;
+  color: #ff8800;
+}
+
+.content-logo {
+  width: 300px;
+}
+
+.content-logo-item {
+  font-size: 38px;
+  color: red;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+}
+
+.content-logo-item img {
+  display: block;
+  width: 190px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.Navigation-items li a:hover {
+  color: crimson;
+}
+
+.content-banner {
+  background-image: url("https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,width=1200,height=675,fit=contain,quality=85/catalog/crunchyroll/26079ab060401d8a76039e985d63a3e9.jpe");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer {
+  background: #242424;
+}
+
+.footer .footer-text {
+  text-align: center;
+  color: #fff;
+  padding: 30px 0;
+}
+
+body {
+  background-color: #fff;
+}
+
+.fondo {
+  background: orange;
+}
+
+h1 {
+  color: red;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,15 @@
+@import 'smacss/base/base';
+@import 'smacss/theme/theme';
+@import 'smacss/module/header';
+@import 'smacss/state/state';
+@import 'smacss/module/module';
+@import 'smacss/layout/layout';
+@import 'smacss/module/footer';
+
+
+body{background-color: #fff;}
+.fondo{
+    background: orange;
+}
+
+h1{color: $color;}
